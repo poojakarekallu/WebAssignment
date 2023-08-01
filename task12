@@ -1,0 +1,106 @@
+task1.html
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task1.css"/>
+</head>
+<body>
+    <h1><center>RGMCET</center></h1>
+    <header>
+        
+        <nav class="navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Help</a></li>
+            
+        </nav>
+    </header>
+    
+    <main>
+        
+        
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim corrupti minima, impedit placeat recusandae quo alias nam amet soluta deleniti ut ea cum, architecto aspernatur odit voluptas itaque quibusdam rerum.
+    Iusto magni tempora, saepe cumque repudiandae, ad quos a maiores illo temporibus cupiditate! Quam rerum voluptatum voluptates quasi sit! Impedit, quasi ab? Numquam obcaecati sit, saepe corrupti animi asperiores a!
+    Cum, nihil commodi vero officia aut laboriosam rerum. Repellendus itaque, praesentium aut, quidem soluta voluptatibus, totam ab eius officiis repudiandae deserunt natus reiciendis molestias non reprehenderit. Quos qui maxime at.
+    Iusto vel earum distinctio officiis maxime molestiae ratione assumenda similique consectetur? A harum iusto aut. Animi ut officia sed iste corporis amet ratione velit rem error possimus! Quae, eum nesciunt!</p>
+
+    <div class="parent">
+        <div class="box1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis cumque ullam illum cupiditate voluptatibus iure maiores accusantium. Vitae doloribus quo, molestias mollitia et beatae, tempore nesciunt omnis pariatur nisi soluta.
+         optio dolorem ea. Assumenda!</div>
+        <div class="box2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia odit alias molestias expedita aperiam quo repellat ipsa, eligendi illo ab culpa error nesciunt libero necessitatibus magni. Quia aspernatur corrupti aut!</div>
+        <div class="box3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos quam vero minus, quae ad, asperiores quibusdam quaerat magni incidunt voluptates sunt fugit molestiae doloremque? Voluptatibus minima explicabo facere alias voluptas!</div>
+    </div>
+</main>
+    <footer> &copy; this is footer &hearts;</footer>
+</body>
+</html>
+
+
+
+task1.css
+
+
+
+header{
+    height: 80px;
+    background-color: lightslategray;
+    }
+    main{
+        height: 500px;
+        background-color: aquamarine;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    footer{
+       height: 60px;
+       background-color: lightcoral;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+
+    }
+    nav{
+        display:flex;
+        justify-content: space-evenly;
+        align-items: center;
+        list-style-type: none;
+    }
+    a{
+        color:brown;
+        padding: 30px;
+        text-decoration: none;
+        display:flex;
+        justify-content:center;
+    }
+    .parent{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .box1{
+        height: 300px;
+        width: 300px;
+        background-color: skyblue;
+        border:1px solid black;
+    }
+    .box2{
+        height: 300px;
+        width: 300px;
+        background-color: yellow;
+        border:1px solid black;
+    }
+    .box3{
+        height: 300px;
+        width: 300px;
+        background-color: orangered;
+        border:1px solid black;
+    }
