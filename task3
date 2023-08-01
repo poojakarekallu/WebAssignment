@@ -1,0 +1,50 @@
+task3.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task3.css"/>
+</head>
+<body>
+    <div class="container">
+        <img src="th.jpg"/>
+        <p class="para1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta fugit dolor similique, molestiae explicabo nobis, recusandae nulla rerum, nisi expedita nemo minus adipisci veritatis facilis ratione doloribus nesciunt error quidem.
+        At voluptate natus, incidunt eveniet expedita delectus libero repudiandae itaque unde amet quod magni doloribus eos atque temporibus necessitatibus eaque cumque neque impedit exercitationem totam odit? Asperiores cum amet exercitationem.</p>
+        <p class="para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit optio cupiditate minus perferendis? Quisquam laudantium, suscipit, nisi quis perspiciatis repellat autem distinctio quia est eaque ipsum amet necessitatibus nobis beatae.
+        Illum totam unde velit architecto hic rem. Ducimus, optio iusto doloremque beatae eius voluptatem quaerat adipisci soluta a officiis sunt recusandae voluptatibus ipsa veniam ipsum saepe voluptates nemo dolores illum!</p>
+    </div>
+</body>
+</html>
+
+
+task3.css
+
+
+
+.container{
+    position: relative;
+    background-color: aqua;
+    height:700px;
+    width: 700px;
+    
+}
+img{
+position: absolute;
+    top: 10px;
+    right: 10px;
+    
+}
+.para1{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+.para2{
+    position: absolute;
+    top:50%;
+    text-align: center;
+    
+}
