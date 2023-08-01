@@ -1,0 +1,56 @@
+task5.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task5.css"/>
+</head>
+<body>
+    <div class="img-gal">
+        <div class="image">
+            <img src="dg.jpg" alt="image1"/>
+        </div>
+        <div class="image">
+            <img src="ln.jpg" alt="image2"/>
+        </div>
+        <div class="image">
+            <img src="dk.jpg" alt="image3"/>
+        </div>
+    </div>
+</body>
+</html>
+
+
+task5.css
+
+
+  body{
+  background-color: lightpink;
+}
+  .img-gal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image {
+    margin: 10px;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    transition: transform 0.3s ease-in-out;
+  }
+  .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+  }
+  .image:hover {
+    transform: scale(1.2);
+  }
+  
+  
+  
